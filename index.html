@@ -8,41 +8,195 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
 
     <style>
-   .demo#demoid{
-    background-color: black;
-   }
+   
+        .content-container {
+            width: 400px; /* Set your desired fixed width here */
+            margin: 0 auto; /* Center the container horizontally */
+            background-color: #fbfdfd; /* Background color */
+            padding: 20px; /* Add some padding for spacing */
+            /* color: #fff; Text color */
+        }
    
    </style>
   </head>
 
   <!-- <body class="bg-blue-500 max-w-xl ml-80 mx-auto"> -->
-  <body class="bg-blue-500 max-w-xl  mx-auto">
-   <section>
-    <div >
-      <ul class="flex items-center space-x-4 pb-48 h-1" style="background-image: url('./images/gpay-hero-banner-white.jpg'); background-size: cover;">
-        <li class="relative mt-16 ml-3 demo">
-          <input
-            type="text"
-            placeholder="Search"
-            class="border border-gray-300 rounded-full py-2 pl-8 pr-12 h-8 w-60 focus:outline-none focus:border-blue-500"
-          />
-          <svg class="absolute top-2 left-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-            <path fill="#000000" d="M9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.612 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 16Zm0-2q1.875 0 3.188-1.313T14 9.5q0-1.875-1.313-3.188T9.5 5Q7.625 5 6.312 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14Z"/>
-          </svg>
-        </li>
-        
-        <li class="mt-16 ">
-          <img
-            src="./images/imageofs.webp"
-            alt="Profile Image"
-            class="w-12 h-12 rounded-full border border-black h-8 w-8"
-          />
-        </li>
-      </ul>
-      
-      
+    <body class="bg-blue-500  max-w-lg mx-auto mt-3">
+      <section class="bg-white pb-56 h-auto ml-5 ">
+        <div>
+          <ul class="flex items-center space-x-4 pb-36 h-1 h-auto " style="background-image: url('./images/gpay-hero-banner-white.jpg'); background-size: contain; background-repeat: no-repeat; background-position: start;">
+            <li class="relative mt-9 ml-10">
+              <input
+                type="text"
+                placeholder="Search"
+                class="border border-gray-300 rounded-full py-2 pl-8 pr-12 h-8 w-60 focus:outline-none focus:border-blue-500"
+              />
+              <svg class="absolute top-2 left-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                <path fill="#000000" d="M9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.612 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 16Zm0-2q1.875 0 3.188-1.313T14 9.5q0-1.875-1.313-3.188T9.5 5Q7.625 5 6.312 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14Z"/>
+              </svg>
+            </li>
+            
+            <li class="mt-10">
+              <img
+                src="./images/imageofs.webp"
+                alt="Profile Image"
+                class="w-12 h-12 rounded-full border border-black h-8 w-8 ml-36 mt-1     "
+              />
+            </li>
+
+          </ul>
+        </div>
+<section class="grid grid-cols-4 p-3 text-center  ">
+  <div class="flex flex-col items-center justify-center m-1">
+          
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path  d="M9.5 6.5v3h-3v-3h3M11 5H5v6h6V5zm-1.5 9.5v3h-3v-3h3M11 13H5v6h6v-6zm6.5-6.5v3h-3v-3h3M19 5h-6v6h6V5zm-6 8h1.5v1.5H13V13zm1.5 1.5H16V16h-1.5v-1.5zM16 13h1.5v1.5H16V13zm-3 3h1.5v1.5H13V16zm1.5 1.5H16V19h-1.5v-1.5zM16 16h1.5v1.5H16V16zm1.5-1.5H19V16h-1.5v-1.5zm0 3H19V19h-1.5v-1.5zM22 7h-2V4h-3V2h5v5zm0 15v-5h-2v3h-3v2h5zM2 22h5v-2H4v-3H2v5zM2 2v5h2V4h3V2H2z"/></svg>
+    <span class="text-sm ">Scan any QR code</span>
     </div>
-   </section>
-  </body>
+  <div class="flex flex-col items-center justify-center" >
+          
+    <svg class="mb-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path  d="M3 2h16.005C20.107 2 21 2.898 21 3.99v16.02c0 1.099-.893 1.99-1.995 1.99H3V2Zm4 2H5v16h2V4Zm2 16h10V4H9v16Zm2-4a3 3 0 1 1 6 0h-6Zm3-4a2 2 0 1 1 0-4a2 2 0 0 1 0 4Zm8-6h2v4h-2V6Zm0 6h2v4h-2v-4Z"/></svg>
+    <span class="text-center mb-3  text-sm">Pay contacts</span>
+    </div>
+  <div class="flex flex-col items-center justify-center">
+          
+    <svg class="-mt-1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path  d="M7 23q-.825 0-1.413-.588T5 21v-6h2v3h10V6H7v3H5V3q0-.825.588-1.413T7 1h10q.825 0 1.413.588T19 3v18q0 .825-.588 1.413T17 23H7Zm0-3v1h10v-1H7Zm3-4l-1.4-1.4l1.55-1.6H2v-2h8.15L8.6 9.4L10 8l4 4l-4 4ZM7 4h10V3H7v1Zm0 0V3v1Zm0 16v1v-1Z"/></svg>
+    <span class="text-center flex mt-2 mb-1  text-sm">Pay phone number</span>
+    </div>
+  <div class="flex flex-col items-center justify-center">
+          
+    <svg class="mb-2" xmlns="http://www.w3.org/2000/svg" width="32" height="30" viewBox="0 0 24 24"><path  d="M6.5 10h-2v7h2v-7m6 0h-2v7h2v-7m8.5 9H2v2h19v-2m-2.5-9h-2v7h2v-7m-7-6.74L16.71 6H6.29l5.21-2.74m0-2.26L2 6v2h19V6l-9.5-5Z"/></svg>
+    <span class="text-center text-sm mb-1 ">Bank transfer</span>
+    </div>
+    <div class="flex flex-col items-center justify-center mt-2 ">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 30" width="38" height="38" x="0px" y="0px" class="hover:scale-110">
+          <path fill=""
+              d="M18.36,5.64A9,9,0,1,0,16.5,19.8a1,1,0,0,0-1-1.74A7,7,0,1,1,19,12v2a1,1,0,0,1-2,0V12a5,5,0,1,0-1.53,3.59A3,3,0,0,0,21,14V12A8.94,8.94,0,0,0,18.36,5.64ZM12,15a3,3,0,1,1,3-3A3,3,0,0,1,12,15Z" />
+      </svg>
+      <span class="text-sm -mt-2 ">Pay UPI ID or number</span>
+  </div>
+  <div class="flex flex-col items-center justify-center">
+      <svg class="mb-2 ml-2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+          <path fill="#000000"
+              d="M3 23L5.8 8.9L4 9.6V13H2V8.3l5.05-2.15q.725-.3 1.475-.063T9.7 7l1 1.6q.675 1.075 1.788 1.738T15 11v2q-1.65 0-3.088-.688T9.5 10.5l-.6 3l2.1 2V23H9v-6l-2.1-2l-1.8 8H3ZM9.5 5.5q-.825 0-1.413-.588T7.5 3.5q0-.825.588-1.413T9.5 1.5q.825 0 1.413.588T11.5 3.5q0 .825-.588 1.413T9.5 5.5Zm10 17.5l-1.05-1.05l.7-.7H14v-1.5h5.15l-.7-.7L19.5 18l2.5 2.5l-2.5 2.5Zm-3-4.25l-2.5-2.5l2.5-2.5l1.05 1.05l-.7.7H22V17h-5.15l.7.7l-1.05 1.05Z" />
+      </svg>
+      <span class="text-sm m ">Self-transfer</span>
+  </div>
+  <div class="flex flex-col items-center justify-center text-sm mt-2 ml-1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" x="0px" y="0px" class="hover:scale-110">
+          <path fill="" fill-rule="evenodd" clip-rule="evenodd"
+              d="M4.25 2.5C4.25 2.08579 4.58579 1.75 5 1.75H17C17.4142 1.75 17.75 2.08579 17.75 2.5V17.95H19.5C19.9142 17.95 20.25 18.2858 20.25 18.7V18.8745C20.25 20.6967 18.8061 22.1817 17 22.2477V22.25H8C5.92893 22.25 4.25 20.5711 4.25 18.5V2.5ZM16.8745 20.75C17.7096 20.75 18.4172 20.2043 18.6601 19.45H9.25V20.75H16.8745ZM7.75 20.7363V18.7C7.75 18.2858 8.08579 17.95 8.5 17.95H16.25V3.25H5.75V18.5C5.75 19.6581 6.62501 20.6119 7.75 20.7363Z" />
+          <path fill="black" fill-rule="evenodd" clip-rule="evenodd"
+              d="M6.25 13C6.25 12.5858 6.58579 12.25 7 12.25H15C15.4142 12.25 15.75 12.5858 15.75 13C15.75 13.4142 15.4142 13.75 15 13.75H7C6.58579 13.75 6.25 13.4142 6.25 13Z"
+              fill="black" />
+          <path fill="black" fill-rule="evenodd" clip-rule="evenodd"
+              d="M6.25 16C6.25 15.5858 6.58579 15.25 7 15.25H15C15.4142 15.25 15.75 15.5858 15.75 16C15.75 16.4142 15.4142 16.75 15 16.75H7C6.58579 16.75 6.25 16.4142 6.25 16Z" />
+      </svg>
+       <span class="mt-1">Pay  Bills</span>  
+  </div>
+  <div class="flex flex-col items-center justify-center mt-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="hover:scale-110">
+          <path fill=""
+              d="m14.5 11l-3 6v-4h-2l3-6v4h2zM17 3H7v1h10V3m0 17H7v1h10v-1m0-19c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h10zM7 18h10V6H7v12z" />
+      </svg>
+      <span class="text-sm mt-2">Mobile Recharge</span>
+  </div>
+  
+  
+</section>
+
+<div class="bg-blue-200 rounded-full ml-24 mr-24 h-6">
+
+         <span class="ml-11"> UPI ID: p.c.sathesh@hdfcbank</span>
+</div>
+     
+
+<section class="bg-white p-4">
+  <h1 class="text-2xl font-bold mb-4">People</h1> <!-- Top heading -->
+
+  <!-- Grid container -->
+  <div class="grid grid-cols-4 gap-4">
+
+      <!-- Row 1: Four small profiles -->
+      <div class="col-span-1">
+          <!-- Profile 1 -->
+          <div class=" rounded-full text-center">
+              <img src="./images/man1.jpeg" alt="Profile 1" class="w-12 h-12 mx-auto rounded-full">
+          </div>
+          <p class="text-center mt-2">Ravi</p>
+      </div>
+
+      <div class="col-span-1">
+          <!-- Profile 2 -->
+          <div class=" rounded-full text-center">
+              <img src="./images/man2new.jpeg" alt="Profile 2" class="w-12 h-12 mx-auto rounded-full">
+          </div>
+          <p class="text-center mt-2">Manoj</p>
+      </div>
+
+      <div class="col-span-1">
+        <!-- Profile 2 -->
+        <div class=" rounded-full text-center">
+            <img src="./images/sam.jpeg" alt="Profile 2" class="w-12 h-12 mx-auto rounded-full">
+        </div>
+        <p class="text-center mt-2">Sam</p>
+    </div>
+    <div class="col-span-1">
+      <!-- Profile 2 -->
+      <div class=" rounded-full text-center">
+          <img src="./images/alone.jpeg" alt="Profile 2" class="w-12 h-12 mx-auto rounded-full">
+      </div>
+      <p class="text-center mt-2">Dinesh</p>
+  </div>
+
+      <!-- Row 2: Four small profiles (similar structure as Row 1) -->
+      <div class="col-span-1">
+        <!-- Profile 2 -->
+        <div class=" rounded-full text-center">
+            <img src="./images/rohit.jpeg" alt="Profile 2" class="w-12 h-12 mx-auto rounded-full">
+        </div>
+        <p class="text-center mt-2">Rohit</p>
+    </div>
+
+    <div class="col-span-1">
+      <!-- Profile 2 -->
+      <div class=" rounded-full text-center">
+          <img src="./images/lletter.png.crdownload" alt="Profile 2" class="w-12 h-12 mx-auto rounded-full">
+      </div>
+      <p class="text-center mt-2">Logesh</p>
+  </div>
+
+  <div class="col-span-1">
+    <!-- Profile 2 -->
+    <div class=" rounded-full text-center">
+        <img src="./images/man2new.jpeg" alt="Profile 2" class="w-12 h-12 mx-auto rounded-full">
+    </div>
+    <p class="text-center mt-2">Manoj</p>
+</div>
+
+<div class="col-span-1">
+  <!-- Profile 2 -->
+  <div class=" rounded-full text-center">
+      <img src="./images/man2new.jpeg" alt="Profile 2" class="w-12 h-12 mx-auto rounded-full">
+  </div>
+  <p class="text-center mt-2">Manoj</p>
+</div>
+  </div> <!-- End of grid container -->
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+     
+      </section>
+    </body>
+    
   
 </html>
